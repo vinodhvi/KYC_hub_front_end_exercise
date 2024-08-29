@@ -1,13 +1,85 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik";
+    overflow-x: hidden;
+    background:#202936;
 }
+ul, li, a {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.data-section {
+    padding: 100px 40px 0 40px;
+}
+.compare-products, .compare-section{
+    color: #fff;
+}
+.add-more{
+    margin-left: 15px;
+}
+.compare-section {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.products-section {
+    flex: 0 0 315px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 25%;
+}
+.products-section img{
+    width:100%;
+}
+.compare-add{
+    display: flex;
+    align-items: center;
+}
+.ant-modal {
+    width: 80% !important;
+}
+.app-container {
+    display: flex;
+  }
+  /* table css */
+  .ant-btn {
+    background: unset;
+    border: 1px solid #5d87ff;
+    color: #dddddd;
+}
+  .ant-pagination-item-active, .ant-pagination-item:hover{
+    background-color: #1677ff !important;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  }
+ 
+  .ant-pagination-item-active a ,.ant-pagination-item a:hover, .ant-pagination-item-ellipsis{
+    color:#fff !important;
+  }
+  .ant-table-content table {
+    background: #202936;
+    color: #fff;
+    box-shadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.02) 0px 12px 24px -4px;
+    border: 1px solid #ededed63;
 }
+.ant-table-thead tr th {
+    color: #fff !important;
+    background: #202936 !important;
+}
+.ant-table-cell{
+    color: #ededed;
+    font-family: rubik !important;
+
+}
+.ant-table-row:hover{
+    background-color: #dcdcdc57!important;
+}
+.ant-table-cell-row-hover {
+    background: #dcdcdc57 !important;
+}
+.ant-table-cell{
+    font-size: 15px;
+}
+ /* table css */
