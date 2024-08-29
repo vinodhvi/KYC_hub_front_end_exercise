@@ -77,3 +77,11 @@
   overflow-x: scroll;
 }
   }
+@media only screen and (max-width:425px) {
+.products-section {
+    flex: 0 0 255px;
+   
+}
+    }
+
+/* media screen */
