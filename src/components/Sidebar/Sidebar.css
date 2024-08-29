@@ -77,3 +77,12 @@
   overflow-x: scroll;
 }
   }
+  @media only screen and (max-width:425px) {
+    .products-section {
+      flex: 0 0 250px;
+  }
+  .data-section {
+    padding: 100px 15px 0 15px;
+}
+  }
+  /* media query */
