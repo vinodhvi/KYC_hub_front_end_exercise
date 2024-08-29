@@ -82,4 +82,7 @@ ul, li, a {
 .ant-table-cell{
     font-size: 15px;
 }
+.ant-table-column-sort {
+    background: unset !important;
+}
  /* table css */
